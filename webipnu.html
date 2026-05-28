@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR IPNU IPPNU Desa Bluri - Portal Resmi</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        .tab-active { background-color: #005c30; color: white; transform: scale(1.03); border-color: #fbbf24; }
+        .sidebar-active { background-color: #005c30; color: white; border-left-width: 6px; border-color: #fbbf24; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- 1. TOP NAVIGATION BAR -->
+    <nav class="bg-white shadow-md sticky top-0 z-50 border-b-4 border-green-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <img src="https://placehold.co/150x150/005c30/white?text=LOGO" alt="Logo IPNU IPPNU" class="w-12 h-12 object-contain rounded-lg shadow-sm">
+                    <div>
+                        <span class="font-bold text-lg block leading-tight text-green-900">PR IPNU IPPNU</span>
+                        <span class="text-xs text-gray-500 tracking-widest uppercase">Desa Bluri</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 font-semibold text-sm">
+                    <a href="#" class="text-green-700 hover:text-green-600 transition">Beranda</a>
+                    <a href="#visimisi" class="text-gray-600 hover:text-green-600 transition">Visi Misi</a>
+                    <a href="#pengurus" class="text-gray-600 hover:text-green-600 transition">Struktur</a>
+                    <a href="#proker" class="text-gray-600 hover:text-green-600 transition">Proker</a>
+                    <a href="#kontak" class="text-gray-600 hover:text-green-600 transition">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO BANNER -->
+    <div class="relative bg-zinc-950 h-[450px] overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80" class="w-full h-full object-cover opacity-35" alt="Banner Organisasi">
+            <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent"></div>
+        </div>
+        <div class="absolute inset-0 flex flex-col justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
+            <span class="bg-amber-500 text-neutral-950 text-xs font-bold uppercase px-3 py-1 rounded-full w-max mb-4 tracking-wider">Selamat Datang</span>
+            <h1 class="text-4xl md:text-6xl font-bold max-w-3xl leading-tight">Belajar, Berjuang, Bertakwa Bersama Pelajar NU Bluri</h1>
+            <p class="mt-4 text-gray-300 max-w-xl text-sm md:text-base">Situs resmi Pimpinan Ranting IPNU IPPNU Desa Bluri. Wadah aktualisasi, kreativitas, dan sinergi santri benteng peradaban bangsa.</p>
+        </div>
+    </div>
+
+    <!-- 3. SECTION VISI & MISI (DIBAGI 2: IPNU & IPPNU) -->
+    <section id="visimisi" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-gray-900 tracking-tight">Visi & Misi Ranting</h2>
+            <div class="h-1 w-20 bg-green-700 mx-auto mt-3 rounded"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <!-- KOLOM IPNU (BIRU NU) -->
+            <div class="space-y-6">
+                <div class="flex items-center space-x-3 mb-2 border-b-2 border-blue-700 pb-3">
+                    <div class="w-10 h-10 bg-blue-700 text-white rounded-lg flex items-center justify-center text-lg"><i class="fas fa-flag"></i></div>
+                    <h3 class="text-2xl font-bold text-blue-900 uppercase tracking-wide">Pimpinan Ranting IPNU</h3>
+                </div>
+                <!-- Visi IPNU -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border-l-8 border-blue-700">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-blue-700 mb-2">Visi IPNU</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed italic">
+                        "Terbentuknya pelajar dan remaja putra NU Desa Bluri yang bertakwa kepada Allah SWT, berilmu, berakhlakul karimah, serta memiliki kecakapan memimpin demi kejayaan Islam Ahlussunnah wal Jama'ah."
+                    </p>
+                </div>
+                <!-- Misi IPNU -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border-l-8 border-blue-500">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-blue-500 mb-3">Misi IPNU</h4>
+                    <ul class="space-y-3 text-gray-600 text-xs">
+                        <li class="flex items-start">
+                            <span class="bg-blue-600 text-white text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center mr-3 mt-0.5 shrink-0">1</span>
+                            <span>Meningkatkan kualitas keimanan kader putra melalui penguatan amaliyah ubudiyah NU.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="bg-blue-600 text-white text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center mr-3 mt-0.5 shrink-0">2</span>
+                            <span>Membentuk kader muda yang disiplin, tanggap teknologi, dan solutif terhadap isu kepemudaan desa.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="bg-blue-600 text-white text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center mr-3 mt-0.5 shrink-0">3</span>
+                            <span>Memperluas jaringan konsolidasi pelajar putra hingga ke tingkat dusun-dusun di Bluri.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- KOLOM IPPNU (HIJAU NU) -->
+            <div class="space-y-6">
+                <div class="flex items-center space-x-3 mb-2 border-b-2 border-green-700 pb-3">
+                    <div class="w-10 h-10 bg-green-700 text-white rounded-lg flex items-center justify-center text-lg"><i class="fas fa-star"></i></div>
+                    <h3 class="text-2xl font-bold text-green-900 uppercase tracking-wide">Pimpinan Ranting IPPNU</h3>
+                </div>
+                <!-- Visi IPPNU -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border-l-8 border-green-700">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-green-700 mb-2">Visi IPPNU</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed italic">
+                        "Terwujudnya pelajar putri NU Desa Bluri yang mandiri, berilmu tinggi, berakhlak mulia, serta unggul dalam kreativitas sosial untuk pemberdayaan perempuan berpaham Aswaja."
+                    </p>
+                </div>
+                <!-- Misi IPPNU -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border-l-8 border-green-500">
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-green-500 mb-3">Misi IPPNU</h4>
+                    <ul class="space-y-3 text-gray-600 text-xs">
+                        <li class="flex items-start">
+                            <span class="bg-green-600 text-white text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center mr-3 mt-0.5 shrink-0">1</span>
+                            <span>Menumbuhkan kesadaran berorganisasi dan literasi bagi seluruh pelajar putri Desa Bluri.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="bg-green-600 text-white text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center mr-3 mt-0.5 shrink-0">2</span>
+                            <span>Mengembangkan wadah minat bakat khusus santriwati dalam bidang seni islami dan kewirausahaan.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="bg-green-600 text-white text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center mr-3 mt-0.5 shrink-0">3</span>
+                            <span>Membentengi moral pelajar putri dari dampak negatif pergaulan modern lewat kajian keputrian berkala.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. STRUKTUR ORGANISASI INTERAKTIF (BACKGROUND GAMBAR TRANSPARAN GELAP) -->
+    <section id="pengurus" class="relative bg-zinc-950 py-24 overflow-hidden">
+        <!-- Background Image dengan Opacity Rendah -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1590075865003-e48277adc558?auto=format&fit=crop&w=1200&q=80" class="w-full h-full object-cover opacity-20 filter grayscale" alt="Background Masjid/Ornamen">
+            <!-- Overlay Gradasi Gelap Penyeimbang Kontras -->
+            <div class="absolute inset-0 bg-gradient-to-b from-zinc-900/90 via-zinc-900/85 to-zinc-950/95"></div>
+        </div>
+        
+        <!-- Konten Utama Atas Background -->
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white">Struktur Kepengurusan</h2>
+            <div class="h-1 w-20 bg-amber-500 mx-auto mt-3 mb-4 rounded"></div>
+            <p class="text-gray-400 max-w-md mx-auto mb-12 text-sm">Silakan klik tombol departemen di bawah ini untuk melihat jajaran kepengurusan aktif beserta foto profil.</p>
+            
+            <!-- Filter Navigasi -->
+            <div class="flex flex-wrap justify-center gap-3 mb-12 max-w-5xl mx-auto">
+                <button onclick="switchTab('bph')" id="btn-bph" class="tab-active px-5 py-2.5 rounded-xl text-xs font-bold shadow-md bg-zinc-800 text-gray-300 hover:bg-zinc-700 border border-zinc-700/60 transition duration-200 uppercase tracking-wider">BPH</button>
+                <button onclick="switchTab('infokom')" id="btn-infokom" class="px-5 py-2.5 rounded-xl text-xs font-bold shadow-md bg-zinc-800 text-gray-300 hover:bg-zinc-700 border border-zinc-700/60 transition duration-200 uppercase tracking-wider">Dept. Infokom</button>
+                <button onclick="switchTab('kaderisasi')" id="btn-kaderisasi" class="px-5 py-2.5 rounded-xl text-xs font-bold shadow-md bg-zinc-800 text-gray-300 hover:bg-zinc-700 border border-zinc-700/60 transition duration-200 uppercase tracking-wider">Dept. Kaderisasi</button>
+                <button onclick="switchTab('keorganisasian')" id="btn-keorganisasian" class="px-5 py-2.5 rounded-xl text-xs font-bold shadow-md bg-zinc-800 text-gray-300 hover:bg-zinc-700 border border-zinc-700/60 transition duration-200 uppercase tracking-wider">Dept. Keorganisasian</button>
+                <button onclick="switchTab('minatbakat')" id="btn-minatbakat" class="px-5 py-2.5 rounded-xl text-xs font-bold shadow-md bg-zinc-800 text-gray-300 hover:bg-zinc-700 border border-zinc-700/60 transition duration-200 uppercase tracking-wider">Dept. Minat Bakat</button>
+                <button onclick="switchTab('dakwah')" id="btn-dakwah" class="px-5 py-2.5 rounded-xl text-xs font-bold shadow-md bg-zinc-800 text-gray-300 hover:bg-zinc-700 border border-zinc-700/60 transition duration-200 uppercase tracking-wider">Dept. Dakwah</button>
+            </div>
+
+            <!-- Box Area Tampilan Anggota -->
+            <div id="konten-anggota" class="min-h-[250px] transition-all duration-300"></div>
+        </div>
+    </section>
+
+    <!-- 5. PROGRAM KERJA STRATEGIS -->
+    <section id="proker" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-gray-900">Program Kerja Kompartemen</h2>
+            <div class="h-1 w-20 bg-green-700 mx-auto mt-3 mb-3 rounded"></div>
+            <p class="text-gray-500 text-sm">Pilih departemen di sidebar untuk melihat rencana aksi program kerja beserta dokumentasi.</p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-8 items-start">
+            
+            <!-- SIDEBAR KIRI -->
+            <div class="w-full md:w-1/4 bg-white shadow-md rounded-2xl p-4 sticky top-24 border border-gray-100 flex flex-row md:flex-col overflow-x-auto md:overflow-x-visible gap-2 md:gap-1 shrink-0">
+                <button onclick="switchProker('bph')" id="side-bph" class="sidebar-active w-max md:w-full text-left px-4 py-3.5 rounded-xl text-xs font-bold uppercase tracking-wider text-gray-600 hover:bg-zinc-100 transition duration-150 shrink-0">
+                    <i class="fas fa-gavel mr-2 hidden md:inline"></i> BPH Ranting
+                </button>
+                <button onclick="switchProker('kaderisasi')" id="side-kaderisasi" class="w-max md:w-full text-left px-4 py-3.5 rounded-xl text-xs font-bold uppercase tracking-wider text-gray-600 hover:bg-zinc-100 transition duration-150 shrink-0">
+                    <i class="fas fa-users-cog mr-2 hidden md:inline"></i> Pembinaan Kader
+                </button>
+                <button onclick="switchProker('keorganisasian')" id="side-keorganisasian" class="w-max md:w-full text-left px-4 py-3.5 rounded-xl text-xs font-bold uppercase tracking-wider text-gray-600 hover:bg-zinc-100 transition duration-150 shrink-0">
+                    <i class="fas fa-sitemap mr-2 hidden md:inline"></i> Keorganisasian
+                </button>
+                <button onclick="switchProker('infokom')" id="side-infokom" class="w-max md:w-full text-left px-4 py-3.5 rounded-xl text-xs font-bold uppercase tracking-wider text-gray-600 hover:bg-zinc-100 transition duration-150 shrink-0">
+                    <i class="fas fa-bullhorn mr-2 hidden md:inline"></i> INFOKOM
+                </button>
+                <button onclick="switchProker('minatbakat')" id="side-minatbakat" class="w-max md:w-full text-left px-4 py-3.5 rounded-xl text-xs font-bold uppercase tracking-wider text-gray-600 hover:bg-zinc-100 transition duration-150 shrink-0">
+                    <i class="fas fa-gamepad mr-2 hidden md:inline"></i> Minat Bakat
+                </button>
+                <button onclick="switchProker('dakwah')" id="side-dakwah" class="w-max md:w-full text-left px-4 py-3.5 rounded-xl text-xs font-bold uppercase tracking-wider text-gray-600 hover:bg-zinc-100 transition duration-150 shrink-0">
+                    <i class="fas fa-mosque mr-2 hidden md:inline"></i> Dakwah & Agama
+                </button>
+            </div>
+
+            <!-- KONTEN KARTU PROKER KANAN -->
+            <div id="konten-proker" class="w-full md:w-3/4 transition-all duration-300 min-h-[300px]"></div>
+
+        </div>
+    </section>
+
+    <!-- 6. KONTAK & PETA -->
+    <section id="kontak" class="bg-neutral-900 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-amber-400 uppercase tracking-widest font-bold text-xs">Hubungi Kami</span>
+                    <h2 class="text-3xl font-bold mt-2 mb-6">Pintu Sekretariat Terbuka Lebar</h2>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-300">
+                        <a href="https://wa.me/628123456789" target="_blank" class="flex items-center space-x-4 p-3 bg-neutral-800 rounded-xl hover:bg-neutral-700/70 transition duration-150 group">
+                            <div class="w-10 h-10 bg-emerald-600/20 text-emerald-400 rounded-lg flex items-center justify-center text-lg group-hover:scale-105 transition"><i class="fab fa-whatsapp"></i></div>
+                            <div>
+                                <span class="block text-[11px] text-gray-500 uppercase tracking-wider">WhatsApp</span>
+                                <span class="font-semibold text-white group-hover:text-emerald-400 transition">+62 812-3456-789</span>
+                            </div>
+                        </a>
+                        <a href="https://instagram.com/ipnuippnubluri" target="_blank" class="flex items-center space-x-4 p-3 bg-neutral-800 rounded-xl hover:bg-neutral-700/70 transition duration-150 group">
+                            <div class="w-10 h-10 bg-pink-600/20 text-pink-400 rounded-lg flex items-center justify-center text-lg group-hover:scale-105 transition"><i class="fab fa-instagram"></i></div>
+                            <div>
+                                <span class="block text-[11px] text-gray-500 uppercase tracking-wider">Instagram</span>
+                                <span class="font-semibold text-white group-hover:text-pink-400 transition">@ipnuippnubluri</span>
+                            </div>
+                        </a>
+                        <a href="https://youtube.com/@ipnuippnubluri" target="_blank" class="flex items-center space-x-4 p-3 bg-neutral-800 rounded-xl hover:bg-neutral-700/70 transition duration-150 group">
+                            <div class="w-10 h-10 bg-red-600/20 text-red-400 rounded-lg flex items-center justify-center text-lg group-hover:scale-105 transition"><i class="fab fa-youtube"></i></div>
+                            <div>
+                                <span class="block text-[11px] text-gray-500 uppercase tracking-wider">YouTube Channel</span>
+                                <span class="font-semibold text-white group-hover:text-red-400 transition">IPNU IPPNU Bluri</span>
+                            </div>
+                        </a>
+                        <a href="https://tiktok.com/@ipnuippnubluri" target="_blank" class="flex items-center space-x-4 p-3 bg-neutral-800 rounded-xl hover:bg-neutral-700/70 transition duration-150 group">
+                            <div class="w-10 h-10 bg-zinc-600/30 text-white rounded-lg flex items-center justify-center text-lg group-hover:scale-105 transition"><i class="fab fa-tiktok"></i></div>
+                            <div>
+                                <span class="block text-[11px] text-gray-500 uppercase tracking-wider">TikTok</span>
+                                <span class="font-semibold text-white group-hover:text-zinc-300 transition">@ipnuippnubluri</span>
+                            </div>
+                        </a>
+                        <a href="mailto:ipnuippnubluri@gmail.com" class="flex items-center space-x-4 p-3 bg-neutral-800 rounded-xl hover:bg-neutral-700/70 transition duration-150 group sm:col-span-2">
+                            <div class="w-10 h-10 bg-sky-600/20 text-sky-400 rounded-lg flex items-center justify-center text-lg group-hover:scale-105 transition"><i class="far fa-envelope"></i></div>
+                            <div>
+                                <span class="block text-[11px] text-gray-500 uppercase tracking-wider">Surat Elektronik (Email)</span>
+                                <span class="font-semibold text-white group-hover:text-sky-400 transition">ipnuippnubluri@gmail.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-neutral-800 p-2 rounded-2xl shadow-xl overflow-hidden h-72">
+                    <iframe src="https://maps.google.com/maps?q=Desa%20Bluri&t=&z=13&ie=UTF-8&iwloc=&output=embed" class="w-full h-full rounded-xl" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer class="bg-black text-gray-500 py-6 border-t border-neutral-800 text-center text-xs">
+        <p>© 2026 PR IPNU IPPNU Desa Bluri. Belajarlah, Berjuanglah, Bertakwalah.</p>
+    </footer>
+
+    <!-- JAVASCRIPT LOGIK -->
+    <script>
+        const dataOrganisasi = {
+            bph: `
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto mb-10">
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-5 rounded-xl shadow-md border-t-4 border-blue-600 flex items-center space-x-4 border border-zinc-800">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80" class="w-16 h-16 rounded-full object-cover shadow-md border-2 border-zinc-700" alt="Foto">
+                        <div class="text-left">
+                            <p class="font-bold text-base text-white">Rekan [Nama Ketua]</p>
+                            <span class="text-[10px] font-bold text-blue-400 bg-blue-950/50 px-2 py-0.5 rounded-full uppercase tracking-wider">Ketua IPNU</span>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-5 rounded-xl shadow-md border-t-4 border-green-600 flex items-center space-x-4 border border-zinc-800">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80" class="w-16 h-16 rounded-full object-cover shadow-md border-2 border-zinc-700" alt="Foto">
+                        <div class="text-left">
+                            <p class="font-bold text-base text-white">Rekanita [Nama Ketua]</p>
+                            <span class="text-[10px] font-bold text-green-400 bg-green-950/50 px-2 py-0.5 rounded-full uppercase tracking-wider">Ketua IPPNU</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
+                    <div class="bg-zinc-900/60 backdrop-blur-sm p-3 rounded-xl shadow-sm border border-zinc-800 flex items-center space-x-3"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" class="w-12 h-12 rounded-full object-cover"><div class="text-left"><p class="font-semibold text-sm text-white">Rekan A</p><span class="text-xs text-gray-400">Sekretaris IPNU</span></div></div>
+                    <div class="bg-zinc-900/60 backdrop-blur-sm p-3 rounded-xl shadow-sm border border-zinc-800 flex items-center space-x-3"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100" class="w-12 h-12 rounded-full object-cover"><div class="text-left"><p class="font-semibold text-sm text-white">Rekanita B</p><span class="text-xs text-gray-400">Sekretaris IPPNU</span></div></div>
+                    <div class="bg-zinc-900/60 backdrop-blur-sm p-3 rounded-xl shadow-sm border border-zinc-800 flex items-center space-x-3"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100" class="w-12 h-12 rounded-full object-cover"><div class="text-left"><p class="font-semibold text-sm text-white">Rekan C</p><span class="text-xs text-gray-400">Bendahara IPNU</span></div></div>
+                    <div class="bg-zinc-900/60 backdrop-blur-sm p-3 rounded-xl shadow-sm border border-zinc-800 flex items-center space-x-3"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100" class="w-12 h-12 rounded-full object-cover"><div class="text-left"><p class="font-semibold text-sm text-white">Rekanita D</p><span class="text-xs text-gray-400">Bendahara IPPNU</span></div></div>
+                </div>
+            `,
+            infokom: `
+                <h3 class="text-sm font-bold text-amber-400 mb-6 uppercase tracking-widest">Komposisi Departemen Infokom</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 max-w-xl mx-auto">
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekan E</p><span class="text-xs text-gray-400">Co. Ranting IPNU</span></div></div>
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekanita F</p><span class="text-xs text-gray-400">Co. Ranting IPPNU</span></div></div>
+                </div>
+            `,
+            kaderisasi: `
+                <h3 class="text-sm font-bold text-amber-400 mb-6 uppercase tracking-widest">Komposisi Pengembangan & Pembinaan Kader</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 max-w-xl mx-auto">
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1489980508314-941910ded1f4?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekan I</p><span class="text-xs text-gray-400">Co. Ranting IPNU</span></div></div>
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekanita J</p><span class="text-xs text-gray-400">Co. Ranting IPPNU</span></div></div>
+                </div>
+            `,
+            keorganisasian: `
+                <h3 class="text-sm font-bold text-amber-400 mb-6 uppercase tracking-widest">Komposisi Departemen Keorganisasian</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 max-w-xl mx-auto">
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekan M</p><span class="text-xs text-gray-400">Co. Ranting IPNU</span></div></div>
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekanita N</p><span class="text-xs text-gray-400">Co. Ranting IPPNU</span></div></div>
+                </div>
+            `,
+            minatbakat: `
+                <h3 class="text-sm font-bold text-amber-400 mb-6 uppercase tracking-widest">Komposisi Departemen Minat & Bakat</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 max-w-xl mx-auto">
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekan Q</p><span class="text-xs text-gray-400">Co. Ranting IPNU</span></div></div>
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekanita R</p><span class="text-xs text-gray-400">Co. Ranting IPPNU</span></div></div>
+                </div>
+            `,
+            dakwah: `
+                <h3 class="text-sm font-bold text-amber-400 mb-6 uppercase tracking-widest">Komposisi Departemen Dakwah & Keagamaan</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 max-w-xl mx-auto">
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekan U</p><span class="text-xs text-gray-400">Co. Ranting IPNU</span></div></div>
+                    <div class="bg-zinc-900/80 backdrop-blur-sm p-4 rounded-xl shadow-sm border-b-4 border-green-600 border border-zinc-800 flex items-center space-x-4"><img src="https://images.unsplash.com/photo-1534751516642-a131fed10495?w=100" class="w-14 h-14 rounded-full object-cover shadow-inner"><div class="text-left"><p class="font-bold text-base text-white">Rekanita V</p><span class="text-xs text-gray-400">Co. Ranting IPPNU</span></div></div>
+                </div>
+            `
+        };
+
+        const dataProker = {
+            bph: `
+                <div class="mb-4"><h3 class="text-xl font-bold text-gray-900">BPH Ranting (Badan Pengurus Harian)</h3></div>
+                <div class="space-y-6">
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Rapat Rutin</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Rapat Pleno Triwulan</h4>
+                            <p class="text-sm text-gray-600 mb-4">Evaluasi menyeluruh kinerja dan capaian program kerja antar-departemen demi menjaga stabilitas jalannya roda organisasi.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-green-600 bg-green-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Administrasi</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Audit & Tertib Buku Administrasi Sekretariat</h4>
+                            <p class="text-sm text-gray-600 mb-4">Penyusunan arsip surat-menyurat, manajemen inventaris barang milik ranting, dan laporan keuangan berkala yang transparan.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Sinergitas</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Turba (Turun Bawah) ke Tokoh NU Desa</h4>
+                            <p class="text-sm text-gray-600 mb-4">Silaturahim berkala pengurus harian ke jajaran Pengurus NU Ranting, Muslimat, Ansor, dan Fatayat Desa Bluri untuk memohon nasihat serta arahan.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                </div>
+            `,
+            kaderisasi: `
+                <div class="mb-4"><h3 class="text-xl font-bold text-gray-900">Departemen Pembinaan & Pengembangan Kader</h3></div>
+                <div class="space-y-6">
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Kaderisasi Utama</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">MAKESTA (Masa Kesetiaan Anggota)</h4>
+                            <p class="text-sm text-gray-600 mb-4">Gerbang awal rekrutmen formal untuk melatih mental kepemimpinan ideologi Aswaja bagi pelajar dan pemuda Desa Bluri.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Follow Up</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Lakmud Corner (Latihan Kader Muda)</h4>
+                            <p class="text-sm text-gray-600 mb-4">Forum diskusi interaktif dan pengawalan khusus bagi alumni Makesta untuk dipersiapkan menuju jenjang kaderisasi Lakmud selanjutnya.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-teal-600 bg-teal-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Pendataan</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Sensus Pelajar NU & Pembuatan KTA</h4>
+                            <p class="text-sm text-gray-600 mb-4">Pendataan berbasis data digital untuk memetakan potensi jumlah pelajar, santri, dan remaja yang ada di lingkungan internal Desa Bluri.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                </div>
+            `,
+            keorganisasian: `
+                <div class="mb-4"><h3 class="text-xl font-bold text-gray-900">Departemen Keorganisasian</h3></div>
+                <div class="space-y-6">
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-purple-600 bg-purple-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Internal Organisasi</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Upgrading & Sinergi Lembaga</h4>
+                            <p class="text-sm text-gray-600 mb-4">Pelatihan tata kelola organisasi, manajemen konflik, dan kepemimpinan sidang tingkat lanjutan untuk pengurus ranting.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Musyawarah</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Rapat Kerja Ranting (Rakerra)</h4>
+                            <p class="text-sm text-gray-600 mb-4">Musyawarah perumusan visi strategis dan pengesahan seluruh draf rancangan program kerja departemen untuk satu periode kepengurusan.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Harmonisasi</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Anjangsana & Studi Banding Antar-Ranting</h4>
+                            <p class="text-sm text-gray-600 mb-4">Kunjungan kerja ke pimpinan ranting desa lain guna melakukan komparasi metode kerja, bertukar ilmu, dan mempererat ikatan silaturahim sesama kader.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                </div>
+            `,
+            infokom: `
+                <div class="mb-4"><h3 class="text-xl font-bold text-gray-900">Departemen INFOKOM (Informasi dan Komunikasi)</h3></div>
+                <div class="space-y-6">
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-red-600 bg-red-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Publikasi</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Pengelolaan Media Sosial & Website Resmi</h4>
+                            <p class="text-sm text-gray-600 mb-4">Memproduksi berkala konten infografis edukatif, ucapan hari besar Islam nasional, serta mengunggah rilis berita kegiatan ke situs web resmi.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1542744094-3a31f103e35f?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-orange-600 bg-orange-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Pelatihan</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Pelatihan Desain Grafis & Jurnalistik</h4>
+                            <p class="text-sm text-gray-600 mb-4">Edukasi kelas pembuatan layout menggunakan Canva/CorelDraw dan teknik dasar penulisan berita bagi kader internal ranting.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-sky-600 bg-sky-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Documentation</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Arsip Digital Media Drive (E-Archive)</h4>
+                            <p class="text-sm text-gray-600 mb-4">Penyimpanan rapi rekaman video mentah, foto kegiatan, dan aset visual desain ke dalam Google Drive awan terpusat.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                </div>
+            `,
+            minatbakat: `
+                <div class="mb-4"><h3 class="text-xl font-bold text-gray-900">Departemen Minat & Bakat (Seni & Olahraga)</h3></div>
+                <div class="space-y-6">
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-pink-600 bg-pink-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Olahraga</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">IPNU IPPNU Cup Desa Bluri</h4>
+                            <p class="text-sm text-gray-600 mb-4">Turnamen berkala cabang olahraga futsal ceria (IPNU) dan badminton (IPPNU) antar-kader dusun guna memupuk sportivitas tinggi.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-fuchsia-600 bg-fuchsia-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Kesenian</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Grup Hadroh & Shalawat Ikatan Pelajar</h4>
+                            <p class="text-sm text-gray-600 mb-4">Wadah latihan rutin pemukulan alat terbang hadroh dan olah vokal seni musik islami tradisional sebagai penampil utama acara ranting.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Kreativitas</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Pameran & Workshop Handcraft Santri</h4>
+                            <p class="text-sm text-gray-600 mb-4">Pelatihan pembuatan kerajinan tangan dari bahan daur ulang bernilai ekonomis guna mendorong kemandirian finansial pemuda.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                </div>
+            `,
+            dakwah: `
+                <div class="mb-4"><h3 class="text-xl font-bold text-gray-900">Departemen Dakwah & Keagamaan</h3></div>
+                <div class="space-y-6">
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-teal-600 bg-teal-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Keagamaan</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Rutinan Pembacaan Al-Barzanji & Kitab Diba'</h4>
+                            <p class="text-sm text-gray-600 mb-4">Amaliyah keagamaan sakral keliling yang dijalankan secara bergantian dari rumah ke rumah pengurus setiap malam Ahad pahing.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Kajian</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Kajian Fiqih Kontemporer (Madrasah Aswaja)</h4>
+                            <p class="text-sm text-gray-600 mb-4">Forum kajian interaktif membedah masalah fiqih keseharian remaja bersama ustadz/tokoh agama sepuh di wilayah Desa Bluri.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col md:flex-row overflow-hidden hover:shadow-md transition">
+                        <div class="w-full md:w-1/3 h-48 md:h-auto relative shrink-0"><img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=500" class="w-full h-full object-cover"></div>
+                        <div class="p-6 flex flex-col justify-center w-full">
+                            <span class="text-[10px] font-bold text-yellow-600 bg-yellow-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 w-max">Sosial Masyarakat</span>
+                            <h4 class="text-lg font-bold text-gray-900 mb-2">Bakti Sosial & Santunan Anak Yatim</h4>
+                            <p class="text-sm text-gray-600 mb-4">Aksi penyaluran paket sembako masyarakat kurang mampu serta santunan dana yatim piatu bertepatan pada momentum bulan Muharram.</p>
+                            <a href="https://drive.google.com" target="_blank" class="inline-flex items-center text-xs font-semibold text-green-700 bg-green-50 px-3 py-2 rounded-xl w-max"><i class="fab fa-google-drive mr-2 text-yellow-600"></i> Dokumentasi</a>
+                        </div>
+                    </div>
+                </div>
+            `
+        };
+
+        function switchTab(tabKey) {
+            const container = document.getElementById('konten-anggota');
+            container.style.opacity = 0;
+            setTimeout(() => {
+                container.innerHTML = dataOrganisasi[tabKey];
+                container.style.opacity = 1;
+            }, 150);
+            const buttons = document.querySelectorAll('#pengurus button');
+            buttons.forEach(btn => {
+                btn.classList.remove('tab-active');
+                btn.classList.add('bg-zinc-800', 'text-gray-300');
+            });
+            const activeBtn = document.getElementById('btn-' + tabKey);
+            activeBtn.classList.add('tab-active');
+            activeBtn.classList.remove('bg-zinc-800', 'text-gray-300');
+        }
+
+        function switchProker(prokerKey) {
+            const container = document.getElementById('konten-proker');
+            container.style.opacity = 0;
+            setTimeout(() => {
+                container.innerHTML = dataProker[prokerKey];
+                container.style.opacity = 1;
+            }, 150);
+            const buttons = document.querySelectorAll('#proker button');
+            buttons.forEach(btn => btn.classList.remove('sidebar-active'));
+            document.getElementById('side-' + prokerKey).classList.add('sidebar-active');
+        }
+
+        window.onload = function() {
+            switchTab('bph');
+            switchProker('bph');
+        };
+    </script>
+</body>
+</html>
